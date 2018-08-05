@@ -1,6 +1,6 @@
 # dnspod_ddns_bashshell
-该脚本兼容openwrt
-需要有公网ip
+该脚本兼容openwrt,依赖ca-bundle和curl这两个软件.
+需要有公网ip,需要先在web页面随便添加一个a记录.
 使用方法:
 先到dnspod官网获取api token,位置为登陆后的 用户中心-安全设置-API Token,创建后获得id和token.
 如果在路由器使用,并且路由器能获取到公网ip,请使用ddns_interface.sh
